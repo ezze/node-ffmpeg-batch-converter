@@ -1,5 +1,5 @@
 {
-  "name": "node-ffmpeg-batch-converter",
+  "name": "ffmpeg-batch-converter",
   "version": "0.1.0",
   "description": "Node.js script for batch video conversions with ffmpeg",
   "main": "index.js",
