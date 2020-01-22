@@ -1,4 +1,4 @@
-# node-ffmpeg-batch-converter
+# ffmpeg-batch-converter
 
 Node.js script for batch video conversions with [ffmpeg](https://www.ffmpeg.org/).
 
