@@ -67,3 +67,7 @@ Node.js script for batch video conversions with [ffmpeg](https://www.ffmpeg.org/
     ```bash
     $ ffmpeg-batch-converter --input /path/to/input/directory --input-extension avi --output-extension mkv --dry
     ```
+  
+## License
+
+MIT
