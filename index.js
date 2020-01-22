@@ -68,17 +68,19 @@ async function convertVideo(inputFilePath, outputFilePath, options = {}) {
     return;
   }
   try {
-    const commandArgs = ['-i', inputFilePath];
+    const commandArgs = ['-y', '-i', inputFilePath];
     if (ffmpegArgs) {
       Array.prototype.push.apply(commandArgs, ffmpegArgs.split(' '));
     }
     commandArgs.push(outputFilePath);
     const pr = execa('ffmpeg', commandArgs);
+    console.log(pr.spawnargs.join(' '));
     pr.stdout.pipe(process.stdout);
     pr.stderr.pipe(process.stderr);
     await pr;
   }
   catch (e) {
+    console.error('Unable to convert video.');
     console.error(e);
   }
 }
