@@ -3,7 +3,15 @@
   "version": "0.0.1",
   "description": "Node.js script for batch video conversions with ffmpeg",
   "main": "index.js",
+  "bin": {
+    "ffmpeg-batch-converter": "./bin/ffmpeg-batch-converter.js"
+  },
   "repository": "git@github.com:ezze/node-ffmpeg-batch-converter",
   "author": "Dmitriy Pushkov <ezze@ezze.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^4.0.0",
+    "fs-extra": "^8.1.0",
+    "yargs": "^15.1.0"
+  }
 }
