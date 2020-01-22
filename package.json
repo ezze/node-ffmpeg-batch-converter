@@ -1,0 +1,9 @@
+{
+  "name": "node-ffmpeg-batch-converter",
+  "version": "0.0.1",
+  "description": "Node.js script for batch video conversions with ffmpeg",
+  "main": "index.js",
+  "repository": "git@github.com:ezze/node-ffmpeg-batch-converter",
+  "author": "Dmitriy Pushkov <ezze@ezze.org>",
+  "license": "MIT"
+}
