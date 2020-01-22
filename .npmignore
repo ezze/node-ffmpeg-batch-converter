@@ -1,0 +1,6 @@
+.idea
+.gitignore
+.npmignore
+node_modules
+yarn.lock
+*.log
