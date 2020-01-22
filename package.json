@@ -12,6 +12,8 @@
   "dependencies": {
     "execa": "^4.0.0",
     "fs-extra": "^8.1.0",
+    "moment": "^2.24.0",
+    "sprintf-js": "^1.1.2",
     "yargs": "^15.1.0"
   }
 }

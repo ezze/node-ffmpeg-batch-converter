@@ -28,6 +28,10 @@ yargs
         type: 'string',
         required: true
       })
+      .option('output-naming', {
+        describe: 'date',
+        type: 'string',
+      })
       .option('recursive', {
         describe: 'Process input directories recursively',
         type: 'boolean'
@@ -35,6 +39,10 @@ yargs
       .option('ffmpeg-args', {
         describe: 'Additional ffmpeg arguments',
         type: 'string'
+      })
+      .option('dry', {
+        describe: 'Simulate video conversion',
+        type: 'boolean'
       })
       .version(false);
   }, async options => {
